@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@drawable/backg"
+    tools:context="net.spintechs.qimmos.fingerprint.admin.LoginActivity">
+    
+    <ImageView
+        android:layout_width="271dp"
+        android:layout_height="271dp"
+        android:src="@drawable/s"
+        android:layout_marginTop="-110dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/organisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:textColorHint="#ffffff"
+            >
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Organisation"
+                android:textColor="#ffffff"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            >
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Username"
+                android:textColor="#ffffff"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="false"
+            android:textColorHint="#ffffff">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColor="#ffffff"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="154dp"
+            android:layout_height="36dp"
+            android:background="@drawable/log"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="450dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="All Rights Reserved "
+          android:textColor="#6D6A6A"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spintechs "
+            android:textColor="#FF0000"/>
+    </LinearLayout>
+
+</RelativeLayout>

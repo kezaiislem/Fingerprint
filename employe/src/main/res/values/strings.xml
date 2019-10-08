@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fingerprint</string>
+    <string name="title_activity_main2">Fingerprint</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="wrong_email">Field cant be empty</string>
+    <string name="empty_field">Wrong Email Format</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

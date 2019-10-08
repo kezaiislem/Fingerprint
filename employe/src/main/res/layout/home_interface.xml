@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="271dp"
+        android:layout_height="271dp"
+        android:layout_marginTop="-110dp"
+        android:paddingLeft="30dp"
+        android:src="@drawable/s" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="please choose tally type"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:button="@drawable/custom_box"
+                android:checked="true"
+                android:text="  Auto"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:button="@drawable/custom_box"
+                android:text="  Entry"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:button="@drawable/custom_box"
+                android:text="  Exit"
+                android:textColor="#ffffff" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/interfacelogo" />
+
+    <ImageButton
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="413dp"
+        android:background="@null"
+        app:srcCompat="@drawable/reload" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="460dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Rights Reserved "
+            android:textColor="#6D6A6A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spintechs "
+            android:textColor="#FF0000" />
+    </LinearLayout>
+</FrameLayout>
